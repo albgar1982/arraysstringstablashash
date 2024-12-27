@@ -14,9 +14,9 @@ public class IsUniqueSolution {
         //significa que tiene repetidos
 
         Set<Character> set = new HashSet<>();
-        for (char c : s.toCharArray()) {
-            if (set.contains(c)) return false; //No es necesario meterlo si ya está, es innecesario!!!
-            set.add(c);
+        for (char caracter : s.toCharArray()) {
+            if (set.contains(caracter)) return false; //No es necesario meterlo si ya está, es innecesario!!!
+            set.add(caracter); //No necesitamos un else, solo llegaremos aquí si no se ha cumplido la condición anterior
         }
 
         return true;
