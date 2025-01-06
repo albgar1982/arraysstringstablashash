@@ -56,4 +56,16 @@ public class GroupAnagramsSolution {
 
         return Arrays.toString(letterCount); // RECUERDA: "saco" y "caso" tendrán el mismo hash
     }
+
+    /*
+    La palabra "saco" contiene las letras:
+
+        's' → en la posición 18 ('s' - 'a' = 18)
+        'a' → en la posición 0 ('a' - 'a' = 0)
+        'c' → en la posición 2 ('c' - 'a' = 2)
+        'o' → en la posición 14 ('o' - 'a' = 14)
+
+    Resultado del array:
+        [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+     */
 }
